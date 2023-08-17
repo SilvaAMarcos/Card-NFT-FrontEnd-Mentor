@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+.main{
+    height: 900px;
+    width: 1440px;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    height: 600px;
+    width: 350px;
+    padding: 25px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(216, 50%, 16%);
+}
+
+.card .foto-nft{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card .foto-ancora{
+    position: relative;
+    margin-bottom: 20px;
+
+}
+.card .foto-ancora::before{
+    content: "";
+    box-sizing: border-box;
+    width: 100%;
+    height:calc(100% - 5px);
+    border-radius: 5px;
+    background-color: hsla(178, 100%, 50%, 0.486);
+    background-image: url(../imagens/icon-view.svg);
+    background-repeat: no-repeat;
+    background-size: 32px;
+    background-position: center;
+    position: absolute;
+    cursor: pointer;
+    display: none;
+}
+
+.card .foto-ancora:hover::before{
+    display: block;
+    transition: 0.3s ease-in-out;
+}
+
+.card .nome-nft{
+    color: hsl(178, 100%, 50%);
+    text-decoration: none;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.card .descricao{
+    font-size: 18px;
+    line-height: 25px;
+    color: hsl(215, 13%, 55%);
+    margin-bottom: 25px;
+}
+
+.card .info-valor-tempo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card .info-valor-tempo div{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 24px;
+}
+
+.card .info-valor-tempo .caixa-valor-tempo{
+    font-size: 16px;
+}
+
+.card .info-valor-tempo .caixa-valor-tempo .etherium{
+    color:hsl(178, 100%, 50%);
+    letter-spacing: 1px;
+}
+
+.card .info-valor-tempo .caixa-valor-tempo .tempo{
+    color: hsl(215, 13%, 55%);
+}
+
+.card .linha{
+    width: 100%;
+    margin-bottom: 15px;
+    border-bottom: 0.5px solid hsl(215, 13%, 55%);
+}
+
+.card .criador{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 16px;
+    color: hsl(215, 13%, 55%);
+}
+
+.card .criador img{
+    width: 32px;
+    border-radius: 100%;
+    border: 1px solid white;
+}
+
+.card .criador p a{
+    text-decoration: none;
+    color: hsl(178, 100%, 50%);
+}
