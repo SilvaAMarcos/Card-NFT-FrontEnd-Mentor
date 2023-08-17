@@ -9,7 +9,7 @@ O before foi usado para adicionar um container em cima da imagem, proporcionando
 ## Layouts e exemplos 
 ![desktop-preview](https://github.com/SilvaAMarcos/Card-NFT-FrontEnd-Mentor/assets/102332801/fa873528-6d3b-47fd-8442-836a2d1addf9)
 
-<div style="display: flex; justify-content: center;" > 
+<div style="display: flex; justify-content: center; width:100%;" > 
 
 ![Animação](https://github.com/SilvaAMarcos/Card-NFT-FrontEnd-Mentor/assets/102332801/1a841ca3-1a5f-4418-9cf3-58d4fa6ec1ff)
 </div>
